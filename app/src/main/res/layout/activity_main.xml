@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="127dp"
+    android:text="HeadZones"
+    android:textSize="22dp"
+    android:textColor="#b27b8a"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="325dp"
+       android:src="@drawable/headzones" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="164dp"
+    android:text="$245"
+    android:textSize="22dp"
+    android:textColor="#4d2600" />
+    
+    <CheckBox
+        android:id="@+id/Qoutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Qoute"
+        android:layout_marginLeft="36dp"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Put Initial in center"
+        android:layout_marginLeft="36dp"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protection Plan"
+        android:layout_marginLeft="36dp"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>
